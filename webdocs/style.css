@@ -1,0 +1,45 @@
+body {
+    position: relative;
+}
+
+#header {
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 15px 30px;
+    background-position: center;
+    background-color:rgb(24, 24, 24);
+    background-blend-mode:color-dodge;
+    background-attachment: fixed;
+}
+
+nav#nav a.isolaatti-nav-link {
+    color: rgba(255,255,255,0.5);
+    text-decoration: none;
+    margin-right: 0.5em;
+    min-width: min-content
+}
+
+nav#nav a.isolaatti-nav-link:hover {
+    color: white;
+}
+
+#footer {
+    width: 100%;
+    height: 240px;
+    background-color:rgb(24, 24, 24);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    position: absolute;
+}
+
+#main-carousel {
+    box-shadow: -1px 7px 39px -16px #7C66FF;
+}
+
+.font-serif {
+    font-family: serif;
+}
